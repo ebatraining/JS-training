@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.row {
+  margin: 15px 0;
+}
+.card-img, .card-img-top {
+  max-width: 88%;
+  margin: 6% auto 0;
+}
+.card {
+  height: 100%;
+}
+.paginationjs .paginationjs-pages {
+  float: none;  
+  margin: 0 0 50px;
+}
+.paginationjs .paginationjs-pages ul {
+  display: flex;
+  justify-content: center;
+  float: none;
+}
+.paginationjs .paginationjs-pages li {
+  float: none;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: 45%;
+}
+.swiper-pagination {
+  position: relative;
+  padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+.card-img, .card-img-top {
+  max-width: 90%;
+  margin: 5% auto 0;
+}
+.col-lg-4 {
+  padding: 0;
+  margin-bottom: 5%;
+}
+.row {
+  margin: 0;
+}
+}
+@media (max-width: 600px) {
+.swiper-pagination {
+  padding-top: 10px;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 35%;
+}
+}
