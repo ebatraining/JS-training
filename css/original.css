@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.row {
+  margin: 15px 0;
+}
+.card-img, .card-img-top {
+  max-width: 88%;
+  margin: 6% auto 0;
+}
+.card {
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+.card-img, .card-img-top {
+  max-width: 90%;
+  margin: 5% auto 0;
+}
+.col-lg-4 {
+  padding: 0;
+  margin-bottom: 5%;
+}
+.row {
+  margin: 0;
+}
+}
